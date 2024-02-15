@@ -1,0 +1,151 @@
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol,
+menu{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color: currentColor;
+    display: inline-block;
+}
+img{
+    width: 100%;
+}
+/* LAYOUT */
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.col{
+    width:100%;
+}
+.nav__bar{
+    background-color:#0084FD;
+}
+.nav__bar{
+     padding: 16px; 
+}
+.hamburger-menu{
+    /* padding: 12px; */
+    font-size: 24px;
+    /* display:none;  */
+    color:#FFFF ;
+}
+
+.link-list li{
+ display:none; 
+ /* display: inline; */
+ margin-left: 12px;
+ font-size: 24px;
+ color: white;
+}
+.button{
+    
+    padding: 8px;
+    display: block;
+    width: 220px;
+    text-align: center;
+}
+.hero{
+    padding: 32px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    border: 1px solid transparent;
+    border-radius: 24px;
+    background-color:#B5DDFF;
+    padding: 18px 18px 0 18px;
+    margin-bottom: 24px;
+
+}
+.card__title{
+    font-size: 16px;
+    color:#0084FD ;
+}
+
+.card__icon{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    border: 1px solid transparent;
+    border-radius: 24px;
+    background-color:#B5DDFF;
+    margin-bottom: 24px;
+    padding: 18px;
+
+}
+.card__icon .card__title > i{
+    font-size: 68px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* END LAYOUT */
+
+
+
+
+
+/* MEDIA-QUERY */
+@media screen and (min-width:768px){
+    
+}
+
+
+
+
+/* END- MEDIA-QUERY */
+
+
+/* DEBUG */
+.debug .col{
+    border: 1 px solid black;
+}
+.debug .row{
+    /* border: 1px solid red; */
+}
+
+
+/* STYLE */
+.pill{
+    border-radius: 999px;
+    color: #FFFF;
+    
+}
+.bg-84F{
+    background-color: #0084FD;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+.pt-40{
+    padding-top: 40px;
+}
